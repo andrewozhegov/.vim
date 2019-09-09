@@ -97,10 +97,3 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
-
-" Powerline support for VIM
-
-set rtp+=/usr/local/lib/python2.7/dist-packages/powerline/bindings/vim/
-set laststatus=2	" Always show the statusline
-set showtabline=2	" Disply more than one tabs
-set t_Co=256		" 256 colors
