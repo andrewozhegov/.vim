@@ -7,7 +7,7 @@ ln -sf ~/.vim/vimrc ~/.vimrc
 
 if wget -q ${powerline_installer_url} ; then
     chmod 744 ${powerline_installer}
-    sudo bash ${powerline_installer} --vim
+    sudo bash ${powerline_installer} --vim ~/.vim/addons/powerline.vim
     rm -f ${powerline_installer}
 fi
 

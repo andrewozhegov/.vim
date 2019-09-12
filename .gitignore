@@ -1,2 +1,4 @@
 bundle/*
+addons/*
+!addons/.gitkeep
 !bundle/Vundle.vim
