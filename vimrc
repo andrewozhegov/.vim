@@ -27,6 +27,7 @@ Plugin 'christoomey/vim-tmux-navigator'
 
 " Development tools
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'Xuyuanp/nerdtree-git-plugin'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'sgur/vim-gitgutter'
 
