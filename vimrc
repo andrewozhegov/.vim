@@ -30,6 +30,9 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'sgur/vim-gitgutter'
 
+" Decoration plugins
+Plugin 'ryanoasis/vim-devicons'
+
 call vundle#end()
 filetype plugin indent on
 
