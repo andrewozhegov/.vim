@@ -1,6 +1,6 @@
 #!/bin/sh
 
-powerline_installer_url="https://raw.githubusercontent.com/andrewozhegov/mi-air-13-ubuntu/master/tools/powerline-install.sh"
+powerline_installer_url="https://raw.githubusercontent.com/andrewozhegov/shell-tools/master/powerline-install.sh"
 powerline_installer="${PWD}/$(basename ${powerline_installer_url})"
 
 ln -sf ~/.vim/vimrc ~/.vimrc
