@@ -17,6 +17,9 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 
+" Functionality plugins
+Plugin 'tpope/vim-surround'
+
 " Navigation plugins
 Plugin 'wincent/command-t'
 Plugin 'scrooloose/nerdtree'
@@ -44,6 +47,7 @@ syntax on
 set number
 set splitbelow	    " open files in splitscreen below
 set splitright	    " open files in splitscreen on right
+set encoding=UTF-8
 colorscheme sublimemonokai
 
 set expandtab	    " use spaces instead of tabs
