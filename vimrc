@@ -33,6 +33,7 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'sgur/vim-gitgutter'
+Plugin 'tpope/vim-commentary'
 
 " Decoration plugins
 Plugin 'ryanoasis/vim-devicons'
