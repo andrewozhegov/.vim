@@ -1,6 +1,7 @@
 #!/bin/sh
 
-powerline_installer_url="https://raw.githubusercontent.com/andrewozhegov/shell-tools/master/powerline-install.sh"
+powerline_installer_rem="bdfce4177728"
+powerline_installer_url="https://raw.githubusercontent.com/andrewozhegov/shell-tools/${powerline_installer_rev}/powerline-install.sh"
 powerline_installer="${PWD}/$(basename ${powerline_installer_url})"
 
 ln -sf ~/.vim/vimrc ~/.vimrc
