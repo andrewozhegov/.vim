@@ -2,4 +2,4 @@ bundle/*
 addons/*
 !addons/.gitkeep
 !bundle/Vundle.vim
-powerline-installer.sh
+powerline-install.sh
