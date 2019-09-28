@@ -46,6 +46,7 @@ filetype plugin indent on
 
 syntax on
 set number
+set noswapfile
 set splitbelow	    " open files in splitscreen below
 set splitright	    " open files in splitscreen on right
 set encoding=UTF-8
