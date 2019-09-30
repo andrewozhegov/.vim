@@ -37,6 +37,7 @@ Plugin 'tpope/vim-commentary'
 Plugin 'ekalinin/dockerfile.vim'
 
 " Decoration plugins
+Plugin 'morhetz/gruvbox'
 Plugin 'ryanoasis/vim-devicons'
 
 call vundle#end()
@@ -51,7 +52,7 @@ set noswapfile
 set splitbelow	    " open files in splitscreen below
 set splitright	    " open files in splitscreen on right
 set encoding=UTF-8
-colorscheme sublimemonokai
+colorscheme gruvbox
 
 set expandtab	    " use spaces instead of tabs
 set shiftwidth=4
@@ -84,10 +85,16 @@ set ic		" ignore character case while search
 set hls		" highlight search results
 set is		" ability to get next search result
 
+" Gruvbox theme settings
+
+set background=dark    " Setting dark mode
+let g:gruvbox_contrast_dark = 'soft'
+
 
 " NERDtree settings
 
 map <c-n> :NERDTreeToggle<cr>	
+
 
 " run NERDtree if vim been runned without file specified
 autocmd StdinReadPre * let s:std_in=1	
