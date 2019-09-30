@@ -34,6 +34,7 @@ Plugin 'Xuyuanp/nerdtree-git-plugin'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'sgur/vim-gitgutter'
 Plugin 'tpope/vim-commentary'
+Plugin 'ekalinin/dockerfile.vim'
 
 " Decoration plugins
 Plugin 'ryanoasis/vim-devicons'
