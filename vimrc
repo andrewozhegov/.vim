@@ -33,6 +33,7 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'sgur/vim-gitgutter'
+Plugin 'mhinz/vim-signify'
 Plugin 'tpope/vim-commentary'
 Plugin 'ekalinin/dockerfile.vim'
 
