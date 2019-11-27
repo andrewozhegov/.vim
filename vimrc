@@ -164,6 +164,12 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
+
+" fzf settings
+
+command! -bang -nargs=* Ag call fzf#vim#ag(<q-args>, {'options': '--delimiter : --nth 4..'}, <bang>0)
+
+
 for addon in split(globpath("~/.vim/addons", "*.vim"), '\n')
     execute('source '.addon)
 endfor
