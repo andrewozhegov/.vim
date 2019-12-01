@@ -36,6 +36,7 @@ Plugin 'sgur/vim-gitgutter'
 Plugin 'mhinz/vim-signify'
 Plugin 'tpope/vim-commentary'
 Plugin 'ekalinin/dockerfile.vim'
+Plugin 'gorodinskiy/vim-coloresque.git'
 
 " Decoration plugins
 Plugin 'morhetz/gruvbox'
