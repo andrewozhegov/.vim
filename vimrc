@@ -142,7 +142,6 @@ let g:webdevicons_conceal_nerdtree_brackets = 1
 
 map <c-n> :NERDTreeToggle<cr>	
 
-
 " run NERDtree if vim been runned without file specified
 autocmd StdinReadPre * let s:std_in=1	
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
@@ -172,6 +171,7 @@ let g:syntastic_check_on_wq = 0
 
 " fzf settings
 
+" do not match filenames while search by :Ag
 command! -bang -nargs=* Ag call fzf#vim#ag(<q-args>, {'options': '--delimiter : --nth 4..'}, <bang>0)
 
 
