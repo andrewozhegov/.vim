@@ -99,6 +99,10 @@ let g:gruvbox_contrast_dark = 'soft'
 let g:airline_theme='gruvbox' 
 let g:airline_powerline_fonts = 1
 
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#left_sep = ''
+let g:airline#extensions#tabline#formatter = 'unique_tail_improved'
+
 if !exists('g:airline_symbols')
     let g:airline_symbols = {}
 endif
