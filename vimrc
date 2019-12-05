@@ -136,6 +136,16 @@ let g:webdevicons_enable_nerdtree = 1
 let g:webdevicons_conceal_nerdtree_brackets = 1
 
 
+" Special maps
+
+let mapleader=","
+nnoremap <leader>f  :Files<CR>
+nnoremap <leader>b  :Buffers<CR>
+nnoremap <leader>ag :Ag<CR>
+nnoremap <leader>gl :YcmCompleter GoToDeclaration<CR>
+nnoremap <leader>gf :YcmCompleter GoToDefinition<CR>
+
+
 " NERDtree settings
 
 map <c-n> :NERDTreeToggle<cr>	
