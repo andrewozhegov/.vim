@@ -57,6 +57,7 @@ set splitbelow	    " open files in splitscreen below
 set splitright	    " open files in splitscreen on right
 set encoding=UTF-8
 colorscheme gruvbox
+set colorcolumn=80  " highlight max line width
 
 set expandtab	    " use spaces instead of tabs
 set shiftwidth=4
@@ -70,9 +71,6 @@ map <ScrollWheelUp> <C-Y>
 map <ScrollWheelDown> <C-E>
 
 set wildmode=longest:list,full	" comandline autocompletion
-
-let &colorcolumn=&textwidth	" highlight max line width
-highlight ColorColumn ctermbg=darkgray
 
 
 " Use system clipboard
