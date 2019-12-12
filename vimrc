@@ -136,12 +136,17 @@ let g:webdevicons_enable_nerdtree = 1
 let g:webdevicons_conceal_nerdtree_brackets = 1
 
 
-" Special maps
+" Smart hotkey maps
 
 let mapleader=","
-nnoremap <leader>f  :Files<CR>
+
+" files
+nnoremap <leader>ff :Files<CR>          " Find File by name
+nnoremap <leader>ft :NERDTreeFind<CR>   " show File in nerdTree
+nnoremap <leader>fc :Ag<CR>             " Find file by Contant
+
 nnoremap <leader>b  :Buffers<CR>
-nnoremap <leader>ag :Ag<CR>
+
 nnoremap <leader>gl :YcmCompleter GoToDeclaration<CR>
 nnoremap <leader>gf :YcmCompleter GoToDefinition<CR>
 
