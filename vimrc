@@ -158,11 +158,14 @@ map <c-n> :NERDTreeToggle<cr>
 " run NERDtree if vim been runned without file specified
 autocmd StdinReadPre * let s:std_in=1	
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+let g:NERDTreeWinSize=40
+let NERDTreeMinimalUI = 1
 
 
 " TagbarToggle (class tree) settings
 
 nmap <F6> :TagbarToggle<CR>
+let g:Tlist_WinWidth=60
 
 
 " Open list of buffers by Ctrl + b
