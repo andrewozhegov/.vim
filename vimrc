@@ -51,7 +51,6 @@ filetype plugin indent on
 " General settings
 
 syntax on
-set number
 set noswapfile
 set splitbelow	    " open files in splitscreen below
 set splitright	    " open files in splitscreen on right
@@ -59,6 +58,13 @@ set encoding=UTF-8
 colorscheme gruvbox
 set colorcolumn=80  " highlight max line width
 set cursorline      " highlight current line
+
+set number relativenumber " disabling relativenumber for nonfocused splits
+augroup numbertoggle
+    autocmd!
+    autocmd BufEnter,FocusGained,InsertLeave * set relativenumber
+    autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
+augroup END
 
 set expandtab	    " use spaces instead of tabs
 set shiftwidth=4
