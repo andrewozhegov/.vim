@@ -58,6 +58,7 @@ set splitright	    " open files in splitscreen on right
 set encoding=UTF-8
 colorscheme gruvbox
 set colorcolumn=80  " highlight max line width
+set cursorline      " highlight current line
 
 set expandtab	    " use spaces instead of tabs
 set shiftwidth=4
