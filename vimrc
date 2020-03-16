@@ -27,6 +27,8 @@ Plugin 'majutsushi/tagbar'
 Plugin 'junegunn/fzf'
 Plugin 'junegunn/fzf.vim'
 Plugin 'christoomey/vim-tmux-navigator'
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
 
 " Development tools
 Plugin 'Valloric/YouCompleteMe'
@@ -79,6 +81,7 @@ map <ScrollWheelDown> <C-E>
 
 set wildmode=longest:list,full	" comandline autocompletion
 
+set nofoldenable
 
 " Use system clipboard
 " Required +xterm_clipboard
