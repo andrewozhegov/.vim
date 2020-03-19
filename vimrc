@@ -70,9 +70,7 @@ augroup END
 
 " Special settings for terminal
 
-autocmd TerminalOpen * set nonumber
-autocmd TerminalOpen * set norelativenumber
-autocmd TerminalOpen * set colorcolumn=0
+autocmd TerminalOpen * set nonu rnu cc=0 nocul
 
 set expandtab	    " use spaces instead of tabs
 set shiftwidth=4
