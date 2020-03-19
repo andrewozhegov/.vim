@@ -68,6 +68,12 @@ augroup numbertoggle
     autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
 augroup END
 
+" Special settings for terminal
+
+autocmd TerminalOpen * set nonumber
+autocmd TerminalOpen * set norelativenumber
+autocmd TerminalOpen * set colorcolumn=0
+
 set expandtab	    " use spaces instead of tabs
 set shiftwidth=4
 set smarttab
