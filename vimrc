@@ -69,7 +69,7 @@ augroup END
 
 " Special settings for terminal
 
-autocmd TerminalOpen * set nonu rnu cc=0 nocul
+autocmd TerminalOpen * set nonu nornu cc=0 nocul
 
 set expandtab	    " use spaces instead of tabs
 set shiftwidth=4
