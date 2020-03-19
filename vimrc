@@ -60,16 +60,7 @@ colorscheme gruvbox
 set colorcolumn=80  " highlight max line width
 set cursorline      " highlight current line
 
-set number relativenumber " disabling relativenumber for nonfocused splits
-augroup numbertoggle
-    autocmd!
-    autocmd BufEnter,FocusGained,InsertLeave * set relativenumber
-    autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
-augroup END
-
-" Special settings for terminal
-
-autocmd TerminalOpen * set nonu nornu cc=0 nocul
+set number relativenumber
 
 set expandtab	    " use spaces instead of tabs
 set shiftwidth=4
@@ -84,7 +75,13 @@ map <ScrollWheelDown> <C-E>
 
 set wildmode=longest:list,full	" comandline autocompletion
 
-set nofoldenable
+set nofoldenable    " do not wrap markdown headers
+
+
+" Special settings for terminal
+
+autocmd TerminalOpen * set nonu nornu cc=0 nocul
+
 
 " Use system clipboard
 " Required +xterm_clipboard
