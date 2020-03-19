@@ -21,7 +21,6 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-surround'
 
 " Navigation plugins
-Plugin 'wincent/command-t'
 Plugin 'scrooloose/nerdtree'
 Plugin 'majutsushi/tagbar'
 Plugin 'junegunn/fzf'
