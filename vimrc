@@ -173,6 +173,14 @@ let g:NERDTreeWinSize=40
 let NERDTreeMinimalUI = 1
 let NERDTreeShowHidden=1
 
+" tilling spaces highlighting
+highlight ExtraWhitespace ctermbg=red guibg=red
+match ExtraWhitespace /\s\+$/
+autocmd BufWinEnter * match ExtraWhitespace /\s\+$/
+autocmd InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
+autocmd InsertLeave * match ExtraWhitespace /\s\+$/
+autocmd BufWinLeave * call clearmatches()
+
 
 " TagbarToggle (class tree) settings
 
