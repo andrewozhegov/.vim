@@ -105,7 +105,7 @@ let g:gruvbox_contrast_dark = 'soft'
 
 " airline symbols
 
-let g:airline_theme='gruvbox' 
+let g:airline_theme='gruvbox'
 let g:airline_powerline_fonts = 1
 
 let g:airline#extensions#tabline#enabled = 1
@@ -164,10 +164,10 @@ nnoremap <leader>gt :NERDTreeFind<CR>
 
 " NERDtree settings
 
-map <c-n> :NERDTreeToggle<cr>	
+map <c-n> :NERDTreeToggle<cr>
 
 " run NERDtree if vim been runned without file specified
-autocmd StdinReadPre * let s:std_in=1	
+autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 let g:NERDTreeWinSize=40
 let NERDTreeMinimalUI = 1
