@@ -97,9 +97,11 @@ set clipboard=unnamed
 
 set hlsearch	" highlite search
 set incsearch	" realtime search
-set ic		" ignore character case while search
-set hls		" highlight search results
-set is		" ability to get next search result
+set ic		    " ignore character case while search
+set smartcase	" do case-sensitive search if there is an uppercas
+set hls		    " highlight search results
+set is		    " ability to get next search result
+
 
 " Gruvbox theme settings
 
