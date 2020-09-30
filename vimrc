@@ -183,6 +183,7 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 let g:NERDTreeWinSize=40
 let NERDTreeMinimalUI = 1
 let NERDTreeShowHidden=1
+let NERDTreeShowLineNumbers=1
 
 " tilling spaces highlighting
 highlight ExtraWhitespace ctermbg=red guibg=red
