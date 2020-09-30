@@ -162,7 +162,9 @@ nnoremap <leader>oft :FloatermNew --height=0.8 --width=0.8 --autoclose=2<CR>
 " GOTO
 nnoremap <leader>gl :YcmCompleter GoToDeclaration<CR>
 nnoremap <leader>gf :YcmCompleter GoToDefinition<CR>
-nnoremap <leader>gt :NERDTreeFind<CR>
+" SHOW
+nnoremap <leader>sf :NERDTreeFind<CR>
+nnoremap <leader>st :TagbarShowTag<CR>
 
 nnoremap <leader>/  :nohl<CR>
 
