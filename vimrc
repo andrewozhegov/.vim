@@ -28,6 +28,7 @@ Plugin 'junegunn/fzf.vim'
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
+Plugin 'voldikss/vim-floaterm'
 
 " Development tools
 Plugin 'Valloric/YouCompleteMe'
@@ -156,6 +157,8 @@ nnoremap <leader>fb :Buffers<CR>
 nnoremap <leader>fc :Ag<CR>
 " OPEN
 nnoremap <leader>ot :terminal<CR>
+nnoremap <leader>ofg :FloatermNew --height=0.8 --width=0.8 --autoclose=2 --name=lazygit lazygit<CR>
+nnoremap <leader>oft :FloatermNew --height=0.8 --width=0.8 --autoclose=2<CR>
 " GOTO
 nnoremap <leader>gl :YcmCompleter GoToDeclaration<CR>
 nnoremap <leader>gf :YcmCompleter GoToDefinition<CR>
