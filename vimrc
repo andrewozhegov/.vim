@@ -78,6 +78,9 @@ set wildmode=longest:list,full	" comandline autocompletion
 
 set nofoldenable    " do not wrap markdown headers
 
+nnoremap <expr> k (v:count == 0 ? 'gk' : 'k')
+nnoremap <expr> j (v:count == 0 ? 'gj' : 'j')
+
 
 " Special settings for terminal
 
